@@ -1,0 +1,48 @@
+.chats-btn {
+  display: grid;
+  grid-template-columns: 32px 1fr;
+  grid-gap: 16px;
+  padding: 24px 20px;
+  border-bottom: 1px solid var(--light-color);
+  background: none;
+  width: 100%;
+  cursor: pointer;
+
+
+  &.active {
+    background: #161616;
+  }
+
+
+  &:hover,
+  &:focus-visible {
+    background: #161616;
+  }
+
+
+
+
+  img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+  }
+
+  .chats-btn-body {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    .chats-btn-body-header-info {
+      color: rgba(255, 255, 255, 0.75);
+      font-weight: 500;
+      font-size: 14px;
+    }
+
+    .chats-btn-body-text {
+      color: var(--light-color);
+    }
+  }
+
+}
+

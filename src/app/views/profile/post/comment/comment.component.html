@@ -1,0 +1,15 @@
+<div class="comment">
+  <img class="comment-image" [src]="me()?.avatarUrl ? (me()?.avatarUrl! | imgUrl) : 'assets/images/user.png'">
+
+  <div class="comment-body">
+    <div class="comment-body-header-info"> {{ comment()?.author?.username }}
+      <span> {{ comment()?.createdAt | date: 'HH:mm dd.MM.YYYY' }}</span>
+    </div>
+
+    <div class="comment-body-text">
+      {{ comment()?.text }}
+    </div>
+  </div>
+
+
+</div>

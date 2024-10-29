@@ -1,0 +1,9 @@
+<div class="chats-btn" [routerLink]="[chat()?.id]" [routerLinkActive]="['active']">
+  <img class="chats-btn-image"
+       [src]="chat()?.userFrom?.avatarUrl ? (chat()?.userFrom?.avatarUrl! | imgUrl) : 'assets/images/user.png'">
+
+  <div class="chats-btn-body">
+    <div class="comment-body-header-info"> {{ chat()?.userFrom?.firstName }} {{ chat()?.userFrom?.lastName }}</div>
+    <div class="chats-btn-body-text">{{ chat()?.message }}</div>
+  </div>
+</div>

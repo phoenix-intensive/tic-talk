@@ -1,0 +1,16 @@
+<div class="chats-list">
+  <label class="form-label">
+    <input type="text" class="form-input" placeholder="Искать..." formControlName="firstName" [formControl]="filterChartsControl">
+  </label>
+
+  <chats-btn [chat]="chat" *ngFor="let chat of (chats$ | async)"></chats-btn>
+</div>
+
+
+
+
+
+
+
+
+

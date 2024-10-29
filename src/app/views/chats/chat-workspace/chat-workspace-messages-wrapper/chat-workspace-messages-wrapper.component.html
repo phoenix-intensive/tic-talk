@@ -1,0 +1,3 @@
+<chat-workspace-message [message]="message" *ngFor="let message of messages()"></chat-workspace-message>
+<message-input (created)="onSendMessage($event)"></message-input>
+

@@ -1,0 +1,15 @@
+.search-filter {
+  display: grid;
+  padding: 24px;
+
+  .search-profile-form-wrapper {
+    padding: 16px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+    grid-gap: 60px;
+    background: var(--dark-color);
+    border: 1px solid var(--light-color);
+  }
+}
+
+

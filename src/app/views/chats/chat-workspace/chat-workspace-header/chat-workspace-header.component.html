@@ -1,0 +1,6 @@
+<div class="chat-workspace-header">
+  <div class="chat-workspace-header-info">
+    <img class="chat-workspace-header-image" [src]="profile()?.avatarUrl ? (profile()?.avatarUrl! | imgUrl) : 'assets/images/user.png'">
+    <div class="chat-workspace-header-title">{{ profile()?.firstName }} {{ profile()?.lastName }}</div>
+  </div>
+</div>

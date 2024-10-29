@@ -1,0 +1,4 @@
+<div *ngIf="activeChat$ | async as chat">
+  <chat-workspace-header [profile]="chat.companion"></chat-workspace-header>
+  <chat-workspace-messages-wrapper [chat]="chat"></chat-workspace-messages-wrapper>
+</div>

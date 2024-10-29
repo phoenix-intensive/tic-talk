@@ -1,0 +1,13 @@
+<div class="post-input">
+  <img class="post-input-image" [src]="me()?.avatarUrl ? (me()?.avatarUrl! | imgUrl) : 'assets/images/user.png'">
+
+  <textarea class="hidden-text-area" placeholder="Напишите что-нибудь"  rows="1" (input)="onTextAreaInput($event)"  [(ngModel)]="postText">
+  </textarea>
+
+  <button class="btn-icon" (click)="onCreatePostAndComment()">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1.34375 14V9.34375L11.3438 8L1.34375 6.65625V2L15.3438 8L1.34375 14Z" fill="black"/>
+    </svg>
+  </button>
+</div>
+

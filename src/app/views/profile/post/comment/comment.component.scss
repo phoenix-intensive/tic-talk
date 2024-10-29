@@ -1,0 +1,27 @@
+.comment {
+  display: grid;
+  grid-template-columns: 32px 1fr;
+  grid-gap: 16px;
+  padding: 8px;
+
+  img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+  }
+
+  .comment-body {
+    display: grid;
+    grid-gap: 8px;
+
+    .comment-body-header-info {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: rgba(255, 255, 255, 0.75);
+      font-weight: 500;
+      font-size: 14px;
+    }
+  }
+}
+

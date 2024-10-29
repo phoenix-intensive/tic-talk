@@ -1,0 +1,18 @@
+.chats-list {
+  display: block;
+  height: 100vh;
+  border-right: 1px solid var(--light-color);
+
+
+  .form-label {
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--light-color);
+
+    .form-input {
+      &::placeholder {
+        color: 1px solid var(--light-color);
+      }
+    }
+  }
+
+}
