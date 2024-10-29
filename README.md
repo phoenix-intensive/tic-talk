@@ -4,9 +4,8 @@ Tic-Talk — это платформа для общения и сотрудни
 Данный проект выполнен на **Angular 18** с использованием **Angular Material** для стилизации интерфейса и **ngx-cookie-service** для управления аутентификацией и сессиями.
 
 ## Данные для входа на платформу:
-
-username - dmitriyphoenixteam 
-пароль - 7AKjPLrP42
+username - dmitriyphoenixteam
+password - 7AKjPLrP42
 
 
 ## Основные функции
